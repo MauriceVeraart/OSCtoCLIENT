@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>LITTLE OSC TO CLIENT APP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script>
+    function animateT(){
+        var tl = new TimelineMax()
+        t1 = document.getElementById("tochange")
+        tl.add(TweenMax.fromTo( t1, 1, {x:-100}, {x:100}),0);
+       //tl.add(TweenMax.fromTo( t1, 1, {y:0}, {y:-200}),4);
+    }
+    </script>
+    <script src='js/gs/TweenMax.min.js'></script>
+</head>
+<body>
+    <h1 id="tochange">HELLO WORLD</h1>
+    <button id="test1">PLAY</button>
+    <button id="test2">STOP</button>
+    <input type="text" id="inputveld" default="typie typie">
+</body>
+<script src="./sideapp.js"></script> 
+</html>

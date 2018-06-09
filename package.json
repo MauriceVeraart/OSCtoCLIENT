@@ -1,0 +1,21 @@
+{
+  "name": "OSCtoCLIENT",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . testje",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maurice",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^2.0.2",
+    "osc-msg": "^1.2.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^12.1.0",
+    "electron": "^2.0.2"
+  }
+}
