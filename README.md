@@ -1,11 +1,13 @@
 # OSCtoCLIENT
 
 to install packages
+-------------------
 
-npm install
+```npm install```
 
 to start 
-npm start
+
+```npm start```
 
 
 set focus to the input window
