@@ -1,5 +1,13 @@
 # OSCtoCLIENT
 
+to install packages
+
+npm install
+
+to start 
+npm start
+
+
 set focus to the input window
 type uid
 press enter ;)
